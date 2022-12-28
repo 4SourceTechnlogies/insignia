@@ -435,7 +435,7 @@ section {
     font-size: 1rem;
   }
 
-  #stat1 svg{
+  #stat1 svg {
     display: none;
   }
 
@@ -528,7 +528,7 @@ section {
 }
 
 .service-box:hover {
-  background: url(images/servicesBG.png);
+  background: url(servicesBG.png);
   transition-duration: 1s;
 }
 
@@ -615,7 +615,7 @@ section {
     width: inherit;
   }
 
-  .services .row{
+  .services .row {
     padding-inline: 2rem;
   }
 
@@ -746,17 +746,17 @@ section {
 }
 
 @media (max-width:767px) {
-  .portfolioCards{
+  .portfolioCards {
     width: 50%;
   }
 
-  .viewMoreCard{
+  .viewMoreCard {
     height: inherit;
     width: initial;
     padding-block: 5rem;
   }
 
-  .viewMoreCard a{
+  .viewMoreCard a {
     font-size: 1.2rem;
     padding: 0.5rem;
   }
@@ -906,11 +906,11 @@ section {
     font-size: 1.25rem;
   }
 
-  .testimonialText{
+  .testimonialText {
     flex: 0 1 36%;
   }
 
-  .testimonialImg{
+  .testimonialImg {
     flex: 1 0 50%;
   }
 
@@ -1056,7 +1056,7 @@ section {
   top: 0.5rem;
   right: -3.5rem;
   padding-inline: 1rem;
-  background: url(images/blog_bg.png);
+  background: url(blog_bg.png);
   background-size: cover;
   padding-bottom: 2rem;
 }
@@ -1378,7 +1378,7 @@ footer ul {
 
 /* Footer Section */
 footer {
-  background: url(images/Interior-Designer_02.jpg);
+  background: url(Interior-Designer_02.jpg);
   background-size: cover;
 }
 
