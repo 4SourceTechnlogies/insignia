@@ -319,13 +319,33 @@ section {
 
 @media (min-width: 1440px) {
   .bannerCarouselPrev {
-    left: 75.85rem;
-    top: 12.5rem;
+    left: 72.85rem;
+    top: 9.5rem;
   }
 
   .long {
     top: 101.7rem;
   }
+
+  .carousel-caption h1{
+    top: -16rem;
+  }
+
+    @keyframes fallOff {
+      0% {
+        top: -20rem;
+        opacity: 0.1;
+      }
+  
+      70% {
+        opacity: 0.4;
+      }
+  
+      100% {
+        top: -16rem;
+        opacity: 1;
+      }
+    }
 }
 
 @media (max-width: 767px) {
